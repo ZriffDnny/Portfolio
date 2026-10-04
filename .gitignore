@@ -47,10 +47,13 @@ docs/MATRICULATION.md
 docs/DEGREE.md
 docs/BOOTCAMP.md
 
-# An older headshot original stays local, and nothing made from it is
-# committed. The About photo is committed only as its crop,
-# src/Assets/me-470.webp; that original never enters the repository.
+# Photo originals stay local. src/Assets/me.png is an older headshot, and
+# nothing made from it is committed. src/Assets/formal_pic.jpeg is the
+# original of the About photo, which is committed only as
+# src/Assets/me-1254.webp, a full-size WebP copy with no metadata (the
+# original carries its editing app's EXIF and an embedded thumbnail).
 src/Assets/me.png
+src/Assets/formal_pic.jpeg
 
 # The bag lock exhibition photo shows the FYP poster with a student photo and
 # names and a filled-in marking form; only the crop in

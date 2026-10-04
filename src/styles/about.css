@@ -31,7 +31,9 @@
   gap: var(--s-6);
 }
 
-/* His photo opens the aside, a square at the aside's full width. */
+/* His photo opens the aside, a square at the aside's full width. The hairline
+   ring, the card border's colour, keeps its rounded edge visible where the
+   photo is as dark as the card (his black suit, in the dark theme). */
 .about-aside__photo {
   display: block;
   width: 100%;
@@ -40,6 +42,7 @@
   object-fit: cover;
   border-radius: var(--r-md);
   background: var(--bg-3);
+  box-shadow: 0 0 0 1px var(--line);
 }
 
 .about-aside__block {
@@ -101,8 +104,8 @@
     gap: var(--s-10);
   }
 
-  /* The aside spans the column here; the source is only 470 px, so the
-     photo stays near its desktop size instead of stretching. */
+  /* The aside spans the column here, so the photo is capped near its
+     desktop size instead of stretching across it. */
   .about-aside__photo {
     max-width: 400px;
   }
