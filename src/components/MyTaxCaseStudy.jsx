@@ -74,10 +74,7 @@ const facts = [
   ["Min OS", "iOS 15+ · Android 9 (API 28)+"],
   ["Distribution", "iOS · Android · Huawei AppGallery (HMS)"],
   ["App size", "About 190 MB on iOS, 290 MB on AppGallery"],
-  [
-    "Current version",
-    "1.0.53 (App Store) · 1.0.54 (Google Play) · 1.0.52 (AppGallery)",
-  ],
+  ["Current version", "1.0.53 (App Store, AppGallery) · 1.0.54 (Google Play)"],
   ["Latest release", "October 2026"],
   ["Release record", "14 App Store releases, February to October 2026"],
 ];
