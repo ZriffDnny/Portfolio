@@ -678,18 +678,20 @@ html[data-theme="light"] .custom-cursor.cursor-hover {
   }
 }
 
+/* One rise from dim to full, the first half of what used to be an endless
+   pulse: nothing loops except the availability dot (DESIGN.md). The overlay
+   is gone after 0.3 s, before the rise ends, so the mark looks as before. */
 .preloader__mark {
   font-size: 2.5rem;
-  animation: preloader-pulse 1.2s ease-in-out infinite;
+  animation: preloader-mark-in 0.6s ease-in-out both;
 }
 
-@keyframes preloader-pulse {
-  0%,
-  100% {
+@keyframes preloader-mark-in {
+  from {
     opacity: 0.35;
     transform: scale(0.97);
   }
-  50% {
+  to {
     opacity: 1;
     transform: scale(1);
   }
