@@ -36,6 +36,12 @@ export const ROUTES = [
     descKey: "mytaxDesc",
     type: "article",
     englishOnly: true,
+    image: {
+      path: "/og/mytax.jpg",
+      alt: "MyTax case study by Zariff Danial, with the app's login screen in Bahasa Malaysia",
+      width: 1200,
+      height: 630,
+    },
   },
   {
     name: "bestinet",
