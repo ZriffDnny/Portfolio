@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { motion, useReducedMotion } from "framer-motion";
 import Tilt from "react-parallax-tilt";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
@@ -54,6 +54,10 @@ function HeroLine({ children, index, accent = false }) {
 function Home() {
   const { t } = useTranslation();
   const [statsRef, statsSeen] = useInViewOnce(0.3);
+  // The hero phone leans toward the pointer, but not under reduced motion:
+  // react-parallax-tilt has no check of its own, and base.css can only cut
+  // CSS animations and transitions, not the transform it writes on each move.
+  const reduceMotion = useReducedMotion();
 
   usePageMeta({
     title: t("meta.home"),
@@ -133,6 +137,7 @@ function Home() {
                 </div>
                 <Tilt
                   className="home-hero__main"
+                  tiltEnable={!reduceMotion}
                   tiltMaxAngleX={6}
                   tiltMaxAngleY={6}
                   glareEnable={false}
