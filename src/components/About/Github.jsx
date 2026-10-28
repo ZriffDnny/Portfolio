@@ -171,7 +171,7 @@ function Github() {
         >
           {shouldMount ? (
             <GitHubCalendar
-              username="Zariffdn"
+              username="ZriffDnny"
               blockSize={compact ? 10 : 13}
               blockMargin={compact ? 3 : 4}
               theme={palette}

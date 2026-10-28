@@ -1,6 +1,6 @@
 # Zariff Danial, portfolio
 
-[![Quality](https://github.com/Zariffdn/Portfolio/actions/workflows/quality.yml/badge.svg)](https://github.com/Zariffdn/Portfolio/actions/workflows/quality.yml)
+[![Quality](https://github.com/ZriffDnny/Portfolio/actions/workflows/quality.yml/badge.svg)](https://github.com/ZriffDnny/Portfolio/actions/workflows/quality.yml)
 
 Live at [zariffdanial.vercel.app](https://zariffdanial.vercel.app/).
 
@@ -48,4 +48,4 @@ Node 22 or newer.
 
 ## Credit
 
-The design direction, the content and the decisions are mine. Much of the code was written with Claude Code as a pair programmer, which the co-author lines in the commit history record. If you fork it, a link back to [Zariffdn/Portfolio](https://github.com/Zariffdn/Portfolio) is appreciated.
+The design direction, the content and the decisions are mine. Much of the code was written with Claude Code as a pair programmer, which the co-author lines in the commit history record. If you fork it, a link back to [ZriffDnny/Portfolio](https://github.com/ZriffDnny/Portfolio) is appreciated.

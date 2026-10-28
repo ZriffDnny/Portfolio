@@ -15,7 +15,7 @@ const LINKS = [
 ];
 
 const SOCIALS = [
-  { href: "https://github.com/Zariffdn", label: "GitHub", Icon: FiGithub },
+  { href: "https://github.com/ZriffDnny", label: "GitHub", Icon: FiGithub },
   { href: "https://www.linkedin.com/in/zariffdanial/", label: "LinkedIn", Icon: FiLinkedin },
   { href: "mailto:zariffdanial.zul@gmail.com", label: "Email", ariaKey: "navbar.emailAria", Icon: FiMail },
 ];
@@ -300,7 +300,7 @@ function NavBar({ onMenuChange, resumeIntent }) {
               <Link to="/baglock" onClick={close}>
                 {t("footer.baglock")}
               </Link>
-              <a href="https://github.com/Zariffdn/Portfolio" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/ZriffDnny/Portfolio" target="_blank" rel="noopener noreferrer">
                 {t("footer.viewSource")}
               </a>
             </div>

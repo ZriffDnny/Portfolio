@@ -130,7 +130,7 @@
     "toolsHighlight": "Tools",
     "stackLead": "Languages, frameworks and the tools around them.",
     "stackMobile": "Mobile",
-    "calendarLead": "Almost all of my recent contributions are in private repositories, so the graph shows the activity but not the code.",
+    "calendarLead": "This account started in October 2026 and almost all of my work is in private repositories, so the graph shows the activity but not the code.",
     "calendarError": "The contribution calendar could not be loaded.",
     "tocLabel": "On this page",
     "tocExperience": "Experience",
@@ -278,7 +278,7 @@
   },
   "resume": {
     "download": "Download CV",
-    "lastUpdated": "Last updated September 2026",
+    "lastUpdated": "Last updated October 2026",
     "loading": "Loading resume",
     "loadError": "The resume could not be displayed here. Use the download button to open it."
   },

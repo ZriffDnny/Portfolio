@@ -18,7 +18,7 @@ import "../styles/casestudy.css";
 // Every fact on this page comes from the public repository below: the app
 // (app/, src/), the two Supabase Edge Functions and the three migrations.
 // The timings and limits quoted are constants in that code.
-const REPO = "https://github.com/Zariffdn/Silent-Support-App";
+const REPO = "https://github.com/ZriffDnny/Silent-Support-App";
 
 // silentSupportScreens is [check-in, history, response]; the band shows them
 // in the order a visit runs. No alt transcribes a time or a count. The
@@ -181,7 +181,7 @@ function SilentSupportCaseStudy() {
                 <dt>Code</dt>
                 <dd>
                   <a href={REPO} target="_blank" rel="noopener noreferrer">
-                    github.com/Zariffdn/Silent-Support-App
+                    github.com/ZriffDnny/Silent-Support-App
                   </a>
                 </dd>
               </div>
