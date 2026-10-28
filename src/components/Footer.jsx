@@ -44,7 +44,7 @@ function Footer({ inert = false, resumeIntent = {} }) {
             <h2 className="footer__heading">{t("footer.elsewhere")}</h2>
             <ul>
               <li>
-                <a href="https://github.com/Zariffdn" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/ZriffDnny" target="_blank" rel="noopener noreferrer">
                   <FiGithub aria-hidden="true" /> GitHub
                 </a>
               </li>
@@ -64,7 +64,7 @@ function Footer({ inert = false, resumeIntent = {} }) {
                 </a>
               </li>
               <li>
-                <a href="https://github.com/Zariffdn/Portfolio" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/ZriffDnny/Portfolio" target="_blank" rel="noopener noreferrer">
                   <FiArrowUpRight aria-hidden="true" /> {t("footer.viewSource")}
                 </a>
               </li>

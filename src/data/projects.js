@@ -32,7 +32,7 @@ export const projects = [
     personal: true,
     caseStudy: "/silent-support",
     tags: ["React Native", "Expo", "TypeScript", "Supabase", "Groq"],
-    ghLink: "https://github.com/Zariffdn/Silent-Support-App",
+    ghLink: "https://github.com/ZriffDnny/Silent-Support-App",
   },
   {
     // Private repository, so the card shows "No public repo".
@@ -59,7 +59,7 @@ export const projects = [
     coursework: "fyp",
     caseStudy: "/baglock",
     tags: ["C++", "Arduino", "Fingerprint Sensor", "GPS", "GSM"],
-    ghLink: "https://github.com/Zariffdn/Anti-theft-fingerprint-baglock",
+    ghLink: "https://github.com/ZriffDnny/Anti-theft-fingerprint-baglock",
   },
   {
     id: "bookstore",
@@ -68,7 +68,6 @@ export const projects = [
     imgFit: "contain",
     coursework: "team",
     tags: ["PHP", "HTML", "MySQL"],
-    ghLink: "https://github.com/Zariffdn/Bookstore",
   },
 ];
 

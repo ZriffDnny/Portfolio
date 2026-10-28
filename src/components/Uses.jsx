@@ -32,7 +32,7 @@ const sections = [
       { Icon: VscVscode, label: "VS Code", noteKey: "vscode", note: "Default Dark+ theme" },
       { Icon: SiAndroidstudio, label: "Android Studio", noteKey: "androidStudio", note: "For Flutter & Android builds" },
       { Icon: SiGit, label: "Git", noteKey: "git", note: "Source control" },
-      { Icon: SiGithub, label: "GitHub", note: "@Zariffdn" },
+      { Icon: SiGithub, label: "GitHub", note: "@ZriffDnny" },
     ],
   },
   {

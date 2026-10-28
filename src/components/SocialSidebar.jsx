@@ -5,7 +5,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 const links = [
   {
-    href: "https://github.com/Zariffdn",
+    href: "https://github.com/ZriffDnny",
     label: "GitHub",
     Icon: AiFillGithub,
     external: true,

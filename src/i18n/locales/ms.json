@@ -130,7 +130,7 @@
     "toolsHighlight": "Alat",
     "stackLead": "Bahasa, rangka kerja dan alatan yang berkaitan.",
     "stackMobile": "Mudah alih",
-    "calendarLead": "Hampir semua sumbangan terkini saya berada dalam repositori tertutup, jadi graf ini menunjukkan aktivitinya tetapi bukan kodnya.",
+    "calendarLead": "Akaun ini bermula pada Oktober 2026 dan hampir semua kerja saya berada dalam repositori tertutup, jadi graf ini menunjukkan aktivitinya tetapi bukan kodnya.",
     "calendarError": "Kalendar sumbangan tidak dapat dimuatkan.",
     "tocLabel": "Di halaman ini",
     "tocExperience": "Pengalaman",
@@ -278,7 +278,7 @@
   },
   "resume": {
     "download": "Muat Turun CV",
-    "lastUpdated": "Dikemas kini September 2026",
+    "lastUpdated": "Dikemas kini Oktober 2026",
     "loading": "Memuatkan resume",
     "loadError": "Resume tidak dapat dipaparkan di sini. Gunakan butang muat turun untuk membukanya."
   },

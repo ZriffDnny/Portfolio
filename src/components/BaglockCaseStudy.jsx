@@ -14,7 +14,7 @@ import schematic from "../Assets/Projects/baglock-schematic.jpg";
 import usePageMeta from "../hooks/usePageMeta";
 import "../styles/casestudy.css";
 
-const REPO = "https://github.com/Zariffdn/Anti-theft-fingerprint-baglock";
+const REPO = "https://github.com/ZriffDnny/Anti-theft-fingerprint-baglock";
 
 // The firmware's path from power-on to the owner's phone, in order.
 // `chip` is which of the four jobs (lock, detect, alert, locate) a step serves.
