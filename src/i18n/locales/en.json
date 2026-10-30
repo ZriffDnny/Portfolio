@@ -181,9 +181,10 @@
       "meta": "Cyberjaya, Selangor · On-site · Contract",
       "b1": "Sole mobile developer on MyTax, LHDN's official tax filing app, maintaining one Flutter codebase for iOS and Android and a separate HMS codebase for Huawei AppGallery, which runs without Google Mobile Services.",
       "b2": "Fixed the refund and audit status screens and login prompts across four iOS releases in ten days as the 2026 filing season opened.",
-      "b3": "Moved the server's push sends to the Firebase Cloud Messaging HTTP v1 API, and added topic broadcasts and Android image notifications in the app.",
-      "b4": "Cleared more than 200 static analysis warnings in each mobile codebase, and added a CI workflow, pre-push checks and the first unit tests to both.",
-      "b5": "Kept Bahasa Malaysia and English strings aligned with the web platform, and integrated new REST endpoints as the backend team shipped them."
+      "b3": "Upgraded the iOS, Android and Huawei builds and moved 25+ dependencies up a major version to meet Google Play's API 36 target and 16 KB memory page requirement, live since May 2026.",
+      "b4": "Moved the server's push sends to the Firebase Cloud Messaging HTTP v1 API, and added topic broadcasts and Android image notifications in the app.",
+      "b5": "Cleared more than 200 static analysis warnings in each mobile codebase, and added a CI workflow, pre-push checks and the first unit tests to both.",
+      "b6": "Kept Bahasa Malaysia and English strings aligned with the web platform, and integrated new REST endpoints as the backend team shipped them."
     },
     "bestinet": {
       "role": "Mobile Application Developer",

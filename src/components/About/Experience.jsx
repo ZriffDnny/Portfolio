@@ -9,7 +9,7 @@ import Timeline from "./Timeline";
 // entry that shows the MyTax store buttons; `caseStudy` points an entry at its
 // case study page.
 const keys = [
-  { key: "zen", bullets: ["b1", "b2", "b3", "b4", "b5"], links: true },
+  { key: "zen", bullets: ["b1", "b2", "b3", "b4", "b5", "b6"], links: true },
   { key: "bestinet", bullets: ["b1", "b2", "b3", "b4"], caseStudy: "/bestinet" },
   { key: "pantai", bullets: ["b1", "b2", "b3", "b4"] },
 ];
