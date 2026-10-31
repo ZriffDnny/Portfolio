@@ -1,5 +1,6 @@
 {
   "framework": "vite",
+  "installCommand": "npm ci",
   "outputDirectory": "dist",
   "trailingSlash": false,
   "redirects": [
