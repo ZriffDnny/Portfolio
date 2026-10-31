@@ -350,6 +350,14 @@ function MyTaxCaseStudy() {
                   19 March, 1.0.41 to 1.0.44.
                 </li>
                 <li>
+                  <strong>Platform upgrade.</strong>{" "}
+                  I upgraded the iOS, Android and Huawei builds and moved 25+
+                  dependencies up a major version, meeting Google Play&apos;s
+                  API 36 target and 16 KB memory page requirement. It went
+                  live in May 2026, months before Google Play required the
+                  API 36 target for app updates.
+                </li>
+                <li>
                   <strong>Push notifications.</strong>{" "}
                   I moved the server&apos;s push sends to the Firebase Cloud
                   Messaging HTTP v1 API, and added topic broadcasts and
@@ -360,6 +368,11 @@ function MyTaxCaseStudy() {
                   I cleared more than 200 static analysis warnings in each
                   mobile codebase, and in September 2026 added a CI workflow,
                   a pre-push check and the first unit tests to both of them.
+                </li>
+                <li>
+                  <strong>Bug fixes.</strong>{" "}
+                  I fixed 15+ user-facing defects in a single release, live on
+                  the App Store, Google Play and AppGallery since October 2026.
                 </li>
               </ul>
             </Block>

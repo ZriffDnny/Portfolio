@@ -181,9 +181,10 @@
       "meta": "Cyberjaya, Selangor · Di pejabat · Kontrak",
       "b1": "Satu-satunya pembangun mudah alih untuk MyTax, aplikasi rasmi pemfailan cukai LHDN, menyelenggara satu pangkalan kod Flutter untuk iOS dan Android serta pangkalan kod HMS berasingan untuk Huawei AppGallery, yang berjalan tanpa Google Mobile Services.",
       "b2": "Membaiki skrin status bayaran balik dan audit serta gesaan log masuk dalam empat keluaran iOS sepanjang sepuluh hari ketika musim pemfailan 2026 dibuka.",
-      "b3": "Memindahkan penghantaran pemberitahuan tolak di pelayan ke API HTTP v1 Firebase Cloud Messaging, serta menambah siaran mengikut topik dalam aplikasi dan pemberitahuan bergambar untuk Android.",
-      "b4": "Membersihkan lebih 200 amaran analisis statik dalam setiap pangkalan kod mudah alih, dan menambah aliran kerja CI, semakan pra-push serta ujian unit pertama pada kedua-duanya.",
-      "b5": "Memastikan teks Bahasa Malaysia dan Bahasa Inggeris selaras dengan platform web, dan mengintegrasikan endpoint REST baharu sebaik sahaja pasukan backend melancarkannya."
+      "b3": "Menaik taraf binaan iOS, Android dan Huawei serta mengemas kini 25+ kebergantungan ke versi major baharu bagi memenuhi sasaran API 36 dan keperluan halaman memori 16 KB yang ditetapkan Google Play. Naik taraf ini dilancarkan pada Mei 2026.",
+      "b4": "Memindahkan penghantaran pemberitahuan tolak di pelayan ke API HTTP v1 Firebase Cloud Messaging, serta menambah siaran mengikut topik dalam aplikasi dan pemberitahuan bergambar untuk Android.",
+      "b5": "Membersihkan lebih 200 amaran analisis statik dalam setiap pangkalan kod mudah alih, dan menambah aliran kerja CI, semakan pra-push serta ujian unit pertama pada kedua-duanya.",
+      "b6": "Memastikan teks Bahasa Malaysia dan Bahasa Inggeris selaras dengan platform web, dan mengintegrasikan endpoint REST baharu sebaik sahaja pasukan backend melancarkannya."
     },
     "bestinet": {
       "role": "Mobile Application Developer",

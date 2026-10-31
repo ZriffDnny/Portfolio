@@ -16,6 +16,11 @@ const vercel = vi.hoisted(() => ({
 vi.mock("@vercel/analytics/react", () => ({ Analytics: vercel.analytics }));
 vi.mock("@vercel/speed-insights/react", () => ({ SpeedInsights: vercel.speedInsights }));
 
+// The hero phone's tilt wrapper. The stand-in renders the phone and keeps
+// its props, so the reduced-motion wiring can be checked.
+const tilt = vi.hoisted(() => vi.fn(({ children }) => children));
+vi.mock("react-parallax-tilt", () => ({ default: tilt }));
+
 // The app reads window.location on mount; every test here starts on the
 // home page, whatever the previous one navigated to.
 beforeEach(() => {
@@ -158,5 +163,27 @@ test("stat tiles show their final value at once under reduced motion", async () 
       (el) => el.textContent
     );
     expect(numerals).toEqual(stats.map((stat) => String(stat.value)));
+  });
+});
+
+// The hero phone leans toward the pointer, except under reduced motion.
+describe("hero phone tilt", () => {
+  beforeEach(() => {
+    tilt.mockClear();
+  });
+
+  test("follows the pointer by default", async () => {
+    render(<App />);
+    await screen.findByRole("navigation");
+    expect(tilt).toHaveBeenCalled();
+    expect(tilt.mock.lastCall[0].tiltEnable).toBe(true);
+  });
+
+  test("stays still under reduced motion", async () => {
+    window.setMedia("(prefers-reduced-motion: reduce)", true);
+    render(<App />);
+    await screen.findByRole("navigation");
+    expect(tilt).toHaveBeenCalled();
+    expect(tilt.mock.lastCall[0].tiltEnable).toBe(false);
   });
 });

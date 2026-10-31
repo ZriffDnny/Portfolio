@@ -17,7 +17,9 @@ export const projects = [
   {
     id: "mytax",
     category: "mobile",
-    img: mytaxScreens[1],
+    // Not mytaxScreens[1]: the Home hero's centre phone shows that one, and
+    // below 900px it is the only hero phone, right above this card.
+    img: mytaxScreens[2],
     imgKind: "phone",
     featured: true,
     production: true,

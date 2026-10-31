@@ -323,11 +323,11 @@ async function waitForFonts(page) {
 // rather than "load" so a stalled request cannot turn into a 60s navigation
 // timeout; the wait below is what proves the app is up: <main> is rendered
 // and the wordmark preloader, which only the first page of a browser session
-// shows, is gone or finished.
+// shows, is gone (Pre.jsx unmounts it when its fade ends).
 async function openPage(page, url, notes) {
   const response = await page.goto(url, { waitUntil: "domcontentloaded", timeout: NAVIGATION_TIMEOUT });
   await page.waitForFunction(
-    () => document.querySelector("#main") && !document.querySelector(".preloader:not(.preloader--done)"),
+    () => document.querySelector("#main") && !document.querySelector(".preloader"),
     null,
     { timeout: PRELOADER_TIMEOUT }
   );
