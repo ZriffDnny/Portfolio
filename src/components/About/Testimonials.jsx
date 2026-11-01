@@ -14,10 +14,9 @@ const testimonials = [
   {
     id: "shazlin-zen",
     name: "Shazlin Nizam A.",
-    role: "Mobile Developer",
+    role: "Mobile Application Developer",
     company: "Zen Computer Systems",
-    quote:
-      "Independent developer with the ability to learn something new.",
+    quote: "Independent developer with ability to learn something new",
     avatar: nizamPhoto,
   },
 ];

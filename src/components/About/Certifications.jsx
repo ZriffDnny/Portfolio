@@ -10,8 +10,9 @@ import "../../styles/about-sections.css";
 const CREDLY_PROFILE =
   "https://www.credly.com/users/zariff-danial-bin-zul-azhar";
 
-// The full list (101 as of September 2026) lives on LinkedIn; the rows below
-// are the ones that matter most for a mobile role. It backs the 100+ stat.
+// The full list (127 as of November 2026) lives on LinkedIn; the rows below
+// are the ones that matter most for a mobile role, newest first. It backs the
+// 100+ stat.
 const LINKEDIN_CERTIFICATIONS =
   "https://www.linkedin.com/in/zariffdanial/details/certifications/";
 
@@ -21,30 +22,31 @@ const LINKEDIN_CERTIFICATIONS =
 // entire section.
 const certifications = [
   {
-    id: "ibm-flutter-spec",
-    title: "Developing Mobile Apps with Flutter Specialization",
+    id: "ibm-mobile-pc",
+    title: "IBM iOS and Android Mobile App Developer Professional Certificate",
     issuer: "IBM",
-    date: "2025-07",
+    date: "2026-11",
     credentialUrl:
-      "https://www.coursera.org/account/accomplishments/specialization/UL4M9RW95NWE",
-    credentialId: "UL4M9RW95NWE",
+      "https://www.coursera.org/account/accomplishments/specialization/2380YDHXROAO",
+    credentialId: "2380YDHXROAO",
   },
   {
-    id: "ibm-flutter-dart",
-    title: "Flutter and Dart: Developing iOS, Android, and Mobile Apps",
-    issuer: "IBM",
-    date: "2025-07",
+    id: "meta-android-pc",
+    title: "Meta Android Developer Professional Certificate",
+    issuer: "Meta",
+    date: "2026-10",
     credentialUrl:
-      "https://www.coursera.org/account/accomplishments/verify/RQW9W999M8OT",
-    credentialId: "RQW9W999M8OT",
+      "https://www.coursera.org/account/accomplishments/specialization/1R1SSPT4SHM0",
+    credentialId: "1R1SSPT4SHM0",
   },
   {
-    id: "comptia-tech-plus",
-    title: "CompTIA Tech+ Certification",
-    issuer: "CompTIA",
-    date: "2025-10",
+    id: "meta-ios-ui-spec",
+    title: "Meta iOS UI Development Specialization",
+    issuer: "Meta",
+    date: "2026-10",
     credentialUrl:
-      "https://www.credly.com/badges/63fedd61-90a9-4869-bb9d-a5725016c123",
+      "https://www.coursera.org/account/accomplishments/specialization/YSFT44L6LTH3",
+    credentialId: "YSFT44L6LTH3",
   },
   {
     id: "meta-frontend-spec",
@@ -56,22 +58,21 @@ const certifications = [
     credentialId: "GBO8HRSDL0IJ",
   },
   {
-    id: "meta-advanced-react",
-    title: "Advanced React",
-    issuer: "Meta",
+    id: "comptia-tech-plus",
+    title: "CompTIA Tech+ Certification",
+    issuer: "CompTIA",
     date: "2025-10",
     credentialUrl:
-      "https://www.coursera.org/account/accomplishments/verify/CUDTV61VL1BZ",
-    credentialId: "CUDTV61VL1BZ",
+      "https://www.credly.com/badges/63fedd61-90a9-4869-bb9d-a5725016c123",
   },
   {
-    id: "meta-ux-ui",
-    title: "Principles of UX/UI Design",
-    issuer: "Meta",
-    date: "2025-10",
+    id: "ibm-flutter-spec",
+    title: "Developing Mobile Apps with Flutter Specialization",
+    issuer: "IBM",
+    date: "2025-07",
     credentialUrl:
-      "https://www.coursera.org/account/accomplishments/verify/OR4OXFF5AVWR",
-    credentialId: "OR4OXFF5AVWR",
+      "https://www.coursera.org/account/accomplishments/specialization/UL4M9RW95NWE",
+    credentialId: "UL4M9RW95NWE",
   },
 ];
 
