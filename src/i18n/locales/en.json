@@ -23,7 +23,7 @@
     "heroLead": "I am Zariff Danial, a Flutter developer at Zen Computer Systems and the sole mobile developer on LHDN's MyTax, live on iOS, Android and Huawei AppGallery.",
     "ctaWork": "See the work",
     "ctaContact": "Get in touch",
-    "proofInstallsValue": "3M+",
+    "proofInstallsValue": "3.7M+",
     "proofInstallsLabel": "lifetime installs",
     "proofStoresValue": "3",
     "proofStoresLabel": "app stores",
@@ -338,22 +338,22 @@
     "appstore": {
       "small": "Download on the",
       "aria": "Download MyTax on the App Store",
-      "count": "1.7M+ installs"
+      "count": "1.59M+ installs"
     },
     "playstore": {
       "small": "Get it on",
       "aria": "Get MyTax on Google Play",
-      "count": "1M+ installs"
+      "count": "1.83M+ installs"
     },
     "appgallery": {
       "small": "Explore it on",
       "aria": "Explore MyTax on AppGallery",
-      "count": "325K+ installs"
+      "count": "339K+ installs"
     }
   },
   "meta": {
     "home": "Zariff Danial · Mobile Developer (Flutter)",
-    "homeDesc": "Zariff Danial, Flutter and Dart developer in Klang, Selangor. Sole mobile developer on MyTax, Malaysia's official tax filing app, with 3M+ lifetime installs.",
+    "homeDesc": "Zariff Danial, Flutter and Dart developer in Klang, Selangor. Sole mobile developer on MyTax, Malaysia's official tax filing app, with 3.7M+ lifetime installs.",
     "about": "About · Zariff Danial",
     "aboutDesc": "Zariff Danial, mobile developer at Zen Computer Systems. Flutter and Dart, currently working on the MyTax mobile app under LHDN.",
     "projects": "Projects · Zariff Danial",

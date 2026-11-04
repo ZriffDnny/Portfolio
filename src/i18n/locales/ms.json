@@ -23,7 +23,7 @@
     "heroLead": "Saya Zariff Danial, pembangun Flutter di Zen Computer Systems dan satu-satunya pembangun mudah alih untuk MyTax LHDN, yang kini beroperasi di iOS, Android dan Huawei AppGallery.",
     "ctaWork": "Lihat hasil kerja",
     "ctaContact": "Hubungi saya",
-    "proofInstallsValue": "3M+",
+    "proofInstallsValue": "3.7M+",
     "proofInstallsLabel": "jumlah pemasangan",
     "proofStoresValue": "3",
     "proofStoresLabel": "gedung aplikasi",
@@ -338,22 +338,22 @@
     "appstore": {
       "small": "Muat turun di",
       "aria": "Muat turun MyTax di App Store",
-      "count": "1.7M+ pemasangan"
+      "count": "1.59M+ pemasangan"
     },
     "playstore": {
       "small": "Dapatkan di",
       "aria": "Dapatkan MyTax di Google Play",
-      "count": "1M+ pemasangan"
+      "count": "1.83M+ pemasangan"
     },
     "appgallery": {
       "small": "Terokai di",
       "aria": "Terokai MyTax di AppGallery",
-      "count": "325K+ pemasangan"
+      "count": "339K+ pemasangan"
     }
   },
   "meta": {
     "home": "Zariff Danial · Pembangun Mudah Alih (Flutter)",
-    "homeDesc": "Zariff Danial, pembangun Flutter dan Dart di Klang, Selangor. Satu-satunya pembangun mudah alih MyTax, aplikasi rasmi pemfailan cukai Malaysia (3M+ pemasangan).",
+    "homeDesc": "Zariff Danial, pembangun Flutter dan Dart di Klang, Selangor. Satu-satunya pembangun mudah alih MyTax, aplikasi rasmi pemfailan cukai Malaysia (3.7M+ pemasangan).",
     "about": "Tentang · Zariff Danial",
     "aboutDesc": "Zariff Danial, pembangun mudah alih di Zen Computer Systems. Flutter dan Dart, kini mengusahakan aplikasi mudah alih MyTax di bawah LHDN.",
     "projects": "Projek · Zariff Danial",

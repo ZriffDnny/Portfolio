@@ -291,9 +291,10 @@ function MyTaxCaseStudy() {
               <StoreLinks lng="en" />
             </div>
             <p className="text-3 small cs-caption cs-rise">
-              The App Store figure is from App Store Connect analytics,
-              May 2026. Google Play and AppGallery figures are the ones
-              each store listing shows, September 2026.
+              App Store and Google Play figures count first-time installs,
+              from App Store Connect and the Play Console, November 2026.
+              The AppGallery figure is the one its store listing shows,
+              November 2026.
             </p>
           </header>
         </Container>
@@ -328,7 +329,7 @@ function MyTaxCaseStudy() {
             <div
               className="cs-stat"
               role="figure"
-              aria-label="3 million plus lifetime installs across iOS, Android, and Huawei"
+              aria-label="3.7 million plus lifetime installs across iOS, Android, and Huawei"
             >
               <div className="cs-stat__value tabular">{lifetimeInstalls}</div>
               <span className="eyebrow eyebrow--plain cs-stat__label">
