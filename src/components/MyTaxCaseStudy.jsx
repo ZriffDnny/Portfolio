@@ -66,7 +66,7 @@ const techStack = [
   },
 ];
 
-// From the three store listings, October 2026 (the caption under the list
+// From the three store listings, November 2026 (the caption under the list
 // says so; update both together). No-break spaces keep each version with its
 // store when the line wraps on a phone.
 const facts = [
@@ -74,8 +74,11 @@ const facts = [
   ["Min OS", "iOS 15+ · Android 9 (API 28)+"],
   ["Distribution", "iOS · Android · Huawei AppGallery (HMS)"],
   ["App size", "About 190 MB on iOS, 290 MB on AppGallery"],
-  ["Current version", "1.0.53 (App Store, AppGallery) · 1.0.54 (Google Play)"],
-  ["Latest release", "October 2026"],
+  [
+    "Current version",
+    "1.0.53 (App Store) · 1.0.55 (Google Play) · 1.0.54 (AppGallery)",
+  ],
+  ["Latest release", "November 2026"],
   ["Release record", "14 App Store releases, February to October 2026"],
 ];
 
@@ -288,9 +291,10 @@ function MyTaxCaseStudy() {
               <StoreLinks lng="en" />
             </div>
             <p className="text-3 small cs-caption cs-rise">
-              The App Store figure is from App Store Connect analytics,
-              May 2026. Google Play and AppGallery figures are the ones
-              each store listing shows, September 2026.
+              App Store and Google Play figures count first-time installs,
+              from App Store Connect and the Play Console, November 2026.
+              The AppGallery figure is the one its store listing shows,
+              November 2026.
             </p>
           </header>
         </Container>
@@ -325,7 +329,7 @@ function MyTaxCaseStudy() {
             <div
               className="cs-stat"
               role="figure"
-              aria-label="3 million plus lifetime installs across iOS, Android, and Huawei"
+              aria-label="3.7 million plus lifetime installs across iOS, Android, and Huawei"
             >
               <div className="cs-stat__value tabular">{lifetimeInstalls}</div>
               <span className="eyebrow eyebrow--plain cs-stat__label">
@@ -499,7 +503,7 @@ function MyTaxCaseStudy() {
                   </dl>
                 </div>
                 <figcaption className="mono cs-art__caption">
-                  Store listings as of October 2026
+                  Store listings as of November 2026
                 </figcaption>
               </figure>
             </Block>

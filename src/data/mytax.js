@@ -14,11 +14,15 @@ export {
 // Everything MyTax-related that more than one page shows.
 export const screenshots = mytaxScreens;
 
-export const lifetimeInstalls = "3M+";
+export const lifetimeInstalls = "3.7M+";
 
-// App Store figure from App Store Connect, May 2026. Google Play and AppGallery
-// are the counts each listing shows, September 2026 (Play only shows buckets,
-// so 1M+ is its floor). 1.7M + 1M + 325K gives the 3M+ lifetime floor above.
+// First-time installs only, so people who reinstall MyTax each filing season
+// count once. App Store: App Store Connect's First-Time Downloads, 31 January
+// 2023 to 2 November 2026. Google Play: the Play Console's User acquisition
+// for New users over Last 5 years (its first install was 18 January 2023),
+// to 31 October 2026. AppGallery: the count its listing shows, 4 November
+// 2026. Each figure is a floor at three significant figures, and 1.59M +
+// 1.83M + 339K gives the 3.7M+ lifetime floor above.
 export const storeLinks = [
   {
     kind: "appstore",
@@ -27,7 +31,7 @@ export const storeLinks = [
     small: "Download on the",
     big: "App Store",
     aria: "Download MyTax on the App Store",
-    count: "1.7M+ installs",
+    count: "1.59M+ installs",
   },
   {
     kind: "playstore",
@@ -36,7 +40,7 @@ export const storeLinks = [
     small: "Get it on",
     big: "Google Play",
     aria: "Get MyTax on Google Play",
-    count: "1M+ installs",
+    count: "1.83M+ installs",
   },
   {
     kind: "appgallery",
@@ -45,7 +49,7 @@ export const storeLinks = [
     small: "Explore it on",
     big: "AppGallery",
     aria: "Explore MyTax on AppGallery",
-    count: "325K+ installs",
+    count: "339K+ installs",
   },
 ];
 
