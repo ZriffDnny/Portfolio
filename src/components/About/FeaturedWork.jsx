@@ -1,16 +1,23 @@
 import { useTranslation } from "react-i18next";
 import { FiArrowRight } from "react-icons/fi";
 import { Container, Section, Button, Reveal, PhoneFrame } from "../ui";
-import { screenshots } from "../../data/mytax";
-
-const STATS = [1, 2, 3];
+import { screenshots, lifetimeInstalls } from "../../data/mytax";
 
 // The MyTax panel: label, title, three stats, the case study CTA, and three
 // real screenshots in small phone frames. The store buttons sit on the Zen
-// entry in Experience, just above, so they are not repeated here. Each
-// screenshot's alt text is home.phoneAlt<N>, in data/mytax.js order.
+// entry in Experience, just above, so they are not repeated here, and the
+// description names outcomes rather than repeating that entry's role line.
+// The install stat reads lifetimeInstalls, so the count is never copied into
+// the locale files. Each screenshot's alt text is home.phoneAlt<N>, in
+// data/mytax.js order.
 function FeaturedWork() {
   const { t } = useTranslation();
+
+  const stats = [
+    [lifetimeInstalls, t("home.proofInstallsLabel")],
+    [t("about.featuredStat1Value"), t("about.featuredStat1Label")],
+    [t("about.featuredStat2Value"), t("about.featuredStat2Label")],
+  ];
 
   return (
     <Section hairline id="featured">
@@ -25,13 +32,11 @@ function FeaturedWork() {
                 <p className="text-2 fw-desc">{t("about.featuredDescription")}</p>
 
                 <div className="fw-stats">
-                  {STATS.map((n) => (
-                    <div className="fw-stat" key={n}>
-                      <span className="fw-stat__value">
-                        {t(`about.featuredStat${n}Value`)}
-                      </span>
+                  {stats.map(([value, label]) => (
+                    <div className="fw-stat" key={label}>
+                      <span className="fw-stat__value">{value}</span>
                       <span className="eyebrow eyebrow--plain fw-stat__label">
-                        {t(`about.featuredStat${n}Label`)}
+                        {label}
                       </span>
                     </div>
                   ))}
